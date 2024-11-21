@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.screen{
+    width: 375px;
+    padding: 16px;
+}
+.header{
+    font-family: 'Comfortaa',Arial, Helvetica, sans-serif;
+    margin-top: 76px;
+    font-size: 36px;
+}
+.subheading{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.new{
+    margin-top: 32px;
+}
+.posts{
+    margin-top: 24px;
+    margin-right: 16px;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+.image{
+    width: 343px;
+    height: 343px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+img{
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+}
+.details{
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.profile{
+    width: 30px;
+}
+.username{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.browse{
+    margin-top: 48px;
+}
+.grid{
+    margin-top: 24px;
+    height: 1410px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-content: center;
+    justify-items: center;
+}
+.gridItem{
+    width: 167px;
+}
+.moreContainer{
+    display: flex;
+    justify-content:center;
+}
+.more{
+    margin-top: 32px;
+    background-color: transparent;
+    padding: 20px 130px;
+    border-radius: 6px;
+    border: 2px solid;
+}
+hr{
+    margin-top: 32px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.icon{
+    width: 40px;
+}
+.add{
+    width: 70px;
+}
